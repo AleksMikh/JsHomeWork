@@ -11,7 +11,7 @@ let sum = 0;
       min = arr[i];
     }
   }
-  avg = (sum / arr.length).toFixed(2);
+  avg = parseFloat((sum / arr.length).toFixed(2));
 
   return { min: min, max: max, avg: avg};
 }
